@@ -80,9 +80,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
 
+// const word_count_article = document.getElementByClass('word-count')
+// const url = 'https://wordwatch-api.herokuapp.com/get_word'
 
 __WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).ready(() => {
-  // have fun!
+  // fetch(url)
+  //   .then(data => {
+  //     append(word_count_article, data.json.body.word)
+  //   })
 })
 
 
